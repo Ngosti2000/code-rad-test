@@ -209,10 +209,13 @@ addInitOnceListener(()->{com.codename1.ui.Form __tmpReceiver___fcmp = null;{Obje
         EntityListView rowList = this.rowList;
         ViewContext<Entity> context = (ViewContext<Entity>)this.subContext;
         java.util.Map<String,String> attributes = new java.util.HashMap<String,String>();
+         attributes.put("preferredH", "20mm");
          attributes.put("rad-id", "6");
          attributes.put("uiid", "groupContainer");
         com.codename1.rad.ui.builders.ContainerBuilder _builder = new com.codename1.rad.ui.builders.ContainerBuilder(context, "border", attributes);
         _builder.setParentContainer(_currentContainer, null);
+        // preferredH=20mm
+        
         // uiid=groupContainer
         
         com.codename1.ui.Container _cmp = (com.codename1.ui.Container)_builder.getComponent();
@@ -220,6 +223,8 @@ addInitOnceListener(()->{com.codename1.ui.Form __tmpReceiver___fcmp = null;{Obje
         EntityView<Entity> rowView = view;
         // uiid=groupContainer
         _cmp.setUIID("groupContainer");
+        // preferredH=20mm
+        _cmp.setPreferredH((int)Math.round(CN.convertToPixels((float)20)));
         // 5 child nodes
         // Create child components
         Container _tmp_old_currentContainer = _currentContainer;
@@ -313,7 +318,6 @@ addInitOnceListener(()->{com.codename1.ui.Form __tmpReceiver___fcmp = null;{Obje
          attributes.put("layout", "new GridLayout(2,2)");
          attributes.put("layout-constraint", "center");
          attributes.put("limit", "1");
-         attributes.put("preferredH", "20mm");
          attributes.put("rad-id", "9");
          attributes.put("uiid", "GroupsButton");
         com.codename1.rad.ui.entityviews.Buttons _cmp = new com.codename1.rad.ui.entityviews.Buttons(new com.codename1.rad.ui.ViewContext(context.getController(), context.getEntity()));
@@ -332,8 +336,6 @@ if (StartPage.this.rowView == null) {
         _cmp.setLayout(new GridLayout(2,2));
         // limit=1
         _cmp.setLimit(1);
-        // preferredH=20mm
-        _cmp.setPreferredH((int)Math.round(CN.convertToPixels((float)20)));
         // 1 child nodes
         // Create child components
         Container _tmp_old_currentContainer = _currentContainer;

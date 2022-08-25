@@ -15,14 +15,13 @@
 <entityList layout-constraint="center" name="groups"
             provider="com.example.myapp.provider.MgrGroupsProvider.class">
     <row-template>
-        <border uiid="groupContainer">
+        <border uiid="groupContainer" preferredH="20mm">
 
             <border layout-constraint="north">
                 <radLabel tag = "GroupModel.groupName" layout-constraint="north" component.uiid="GroupNameLabel"/>
 
             </border>
             <buttons layout="new GridLayout(2,2)" actionCategory="MAIN" layout-constraint="center"
-                     preferredH="20mm"
                      uiid = "GroupsButton"
                      limit="1"/>
         </border>
