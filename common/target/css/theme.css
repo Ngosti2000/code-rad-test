@@ -1,0 +1,40 @@
+
+/* /home/steve/.m2/repository/com/codenameone/coderad-common/2.0.1/coderad-common-2.0.1-cn1css.zip-extracted/META-INF/codenameone/com.codenameone/coderad-common/css/theme.css */
+/* CSS file for filechooser */
+
+PopupMenu {
+    cn1-derive: PopupDialog;
+}
+
+PopupMenuContent {
+    cn1-derive: PopupContentPane;
+}
+
+AccountAvatarsTitleComponentText {
+    font-family: 'native:MainLight';
+    font-size: 0.4rem;
+    color: #666666;
+}
+/* end /home/steve/.m2/repository/com/codenameone/coderad-common/2.0.1/coderad-common-2.0.1-cn1css.zip-extracted/META-INF/codenameone/com.codenameone/coderad-common/css/theme.css*/
+
+/* /home/steve/TestCodeRad/test/common/src/main/css/theme.css */
+#Constants {
+    includeNativeBool: true;
+    defaultFontSizeInt: 18;
+    defaultSourceDPIInt: "0";
+}
+
+StartPageH2 {
+    border-bottom: 1px solid #cccccc;
+}
+
+StartPageLink {
+    font-size: 0.7rem;
+    font-family: "native:MainRegular";
+    color: rgb(80, 129, 209);
+}
+
+StartPageText {
+    font-size: 0.7rem;
+}
+/* end /home/steve/TestCodeRad/test/common/src/main/css/theme.css*/

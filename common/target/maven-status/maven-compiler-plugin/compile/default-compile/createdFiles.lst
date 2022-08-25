@@ -1,0 +1,13 @@
+com/example/myapp/model/GroupModelWrapper.class
+com/example/myapp/views/StartPageSchema.class
+com/example/myapp/controllers/MyGroupsPageViewController.class
+com/example/myapp/views/StartPage.class
+com/example/myapp/model/GroupModel.class
+com/example/myapp/views/StartPageController.class
+com/example/myapp/views/AbstractStartPage.class
+com/example/myapp/views/IStartPageController.class
+com/example/myapp/model/GroupModelImpl$1.class
+com/example/myapp/views/StartPage$1Renderer4.class
+com/example/myapp/Test.class
+com/example/myapp/model/GroupModelImpl.class
+com/example/myapp/provider/MgrGroupsProvider.class

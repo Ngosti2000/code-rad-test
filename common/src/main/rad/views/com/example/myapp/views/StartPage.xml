@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<border view-controller="com.example.myapp.controllers.MyGroupsPageViewController"
+        rad-model="GroupModel"
+        safeArea="true"
+        componentForm.formBottomPaddingEditingMode="true"
+        xsi:noNamespaceSchemaLocation="StartPage.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<title hidden = "true"/>
+<import>
+       import com.example.myapp.model.GroupModel;
+</import>
+
+
+<define-category name="MAIN"/>
+
+<entityList layout-constraint="center" name="groups"
+            provider="com.example.myapp.provider.MgrGroupsProvider.class">
+    <row-template>
+        <border uiid="groupContainer">
+
+            <border layout-constraint="north">
+                <radLabel tag = "GroupModel.groupName" layout-constraint="north" component.uiid="GroupNameLabel"/>
+
+            </border>
+            <buttons layout="new GridLayout(2,2)" actionCategory="MAIN" layout-constraint="center"
+                     preferredH="20mm"
+                     uiid = "GroupsButton"
+                     limit="1"/>
+        </border>
+    </row-template>
+
+</entityList>
+</border>

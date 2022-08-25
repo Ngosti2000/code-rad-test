@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+  <xs:complexType name="com_example_myapp_views_StartPage">
+    <xs:complexContent>
+      <xs:extension base="com_example_myapp_views_AbstractStartPage">
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:complexType name="com_example_myapp_views_StartPage-impl">
+    <xs:complexContent>
+      <xs:extension base="com_example_myapp_views_StartPage"/>
+    </xs:complexContent>
+  </xs:complexType>
