@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="336d32c5-6f4b-4a8f-b637-9fea310958e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/component_selector.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/rad/views/com/example/myapp/views/StartPage.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/rad/views/com/example/myapp/views/StartPage.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.adoc" beforeDir="false" afterPath="$PROJECT_DIR$/README.adoc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/test-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/test-common.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/common/src/main/resources" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -56,6 +57,7 @@
       <recent name="com.example.myapp.provider" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common/src/main/resources" />
       <recent name="$PROJECT_DIR$/common/src/main/css" />
       <recent name="$PROJECT_DIR$/common/src/main/rad/views/com/example/myapp" />
     </key>
@@ -787,26 +789,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1799" height="154" key="GridCell.Tab.0.bottom" timestamp="1661401234895">
+    <state width="1799" height="154" key="GridCell.Tab.0.bottom" timestamp="1661402043151">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1866" height="154" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1661400529972" />
-    <state width="1799" height="154" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1661401234895" />
-    <state width="1799" height="154" key="GridCell.Tab.0.center" timestamp="1661401234895">
+    <state width="1799" height="154" key="GridCell.Tab.0.bottom/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1661402043151" />
+    <state width="1799" height="154" key="GridCell.Tab.0.center" timestamp="1661402043151">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1866" height="154" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1661400529971" />
-    <state width="1799" height="154" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1661401234895" />
-    <state width="1799" height="154" key="GridCell.Tab.0.left" timestamp="1661401234895">
+    <state width="1799" height="154" key="GridCell.Tab.0.center/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1661402043151" />
+    <state width="1799" height="154" key="GridCell.Tab.0.left" timestamp="1661402043151">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1866" height="154" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1661400529971" />
-    <state width="1799" height="154" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1661401234895" />
-    <state width="1799" height="154" key="GridCell.Tab.0.right" timestamp="1661401234895">
+    <state width="1799" height="154" key="GridCell.Tab.0.left/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1661402043151" />
+    <state width="1799" height="154" key="GridCell.Tab.0.right" timestamp="1661402043151">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1866" height="154" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1661400529971" />
-    <state width="1799" height="154" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1661401234895" />
+    <state width="1799" height="154" key="GridCell.Tab.0.right/67.27.1853.1053/1920.0.1920.1080@67.27.1853.1053" timestamp="1661402043151" />
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">
